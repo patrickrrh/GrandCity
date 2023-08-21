@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'helvetica';
+}
+
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7000FF;
+    box-shadow: 0px 0px 50px 10px #7000FF;
+}
+
+nav a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+}
+
+.navigation{
+    flex: 1;
+    text-align: right;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.navigation ul li a{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: #7000FF;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.content1{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content1 img{
+    width: 300px;
+    height: 200px;
+}
+
+.side1 p{
+    position: absolute;
+    text-decoration: none;
+    left: -140px;
+    margin-top: 46px;
+    padding: 20px;
+    width: 140px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    transition: 0.3s;
+}
+
+.side1 p:hover{
+    left: 0;
+}
+
+.baru{
+    top: 145px;
+    background-color: #D2042D;
+}
+
+.gadget{
+    top: 470px;
+    background-color: #7000FF;
+}
+
+.baju{
+    top: 795px;
+    background-color: #7000FF;
+}
+
+.sport{
+    top: 1120px;
+    background-color: #7000FF;
+}
+
+.market{
+    top: 1445px;
+    background-color: #7000FF;
+}
+
+.scroll{
+    overflow: auto;
+    padding: 20px 50px 28px 100px;
+    height: 100%;
+}
+
+.tokobaru{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
+.tokobaru img{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #D2042D;
+}
+
+.tokolama{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: center;
+}
+
+.tokolama img{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #7000FF;
+}
+
+.informasi{
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.info{
+    margin: 5px 0 20px 0;
+}
+
+.infomargin{
+    margin-top: 8px;
+}
+
+.infotoko{
+    font-size: 15px;
+    color: #D2042D;
+}
+
+.infotokoo{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #D2042D;
+    font-weight: 500;
+}
+
+.infotoko2{
+    font-size: 15px;
+    color: #7000FF;
+}
+
+.infotokoo2{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #7000FF;
+    font-weight: 500;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #7000FF;
+    box-shadow: 0px 0px 50px 10px #7000FF;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7000FF;
+}
+
+footer a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.sosmed{
+    flex: 1;
+    text-align: center;
+    margin: 80px 10px 100px 10px;
+}
+
+.sosmed ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 100px;
+    position: relative;
+}
+
+.sosmed ul li a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.copyright{
+    font-size: 15px;
+    color: white;
+}

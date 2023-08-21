@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'helvetica';
+}
+
+nav{
+    display: flex;
+    padding: 2% 3%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7000FF;
+    box-shadow: 0px 0px 50px 10px #7000FF;
+}
+
+nav a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-shadow: 0 0 10px white;
+    transition: 0.3s;
+}
+
+.navigation{
+    flex: 1;
+    text-align: right;
+}
+
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.navigation ul li a{
+    color: whitesmoke;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: #7000FF;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.content1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.foto2{
+    width: 100%;
+    height: 100%;
+    margin: 100px 0 100px;
+    box-shadow: 0 0 30px 5px #7000FF;
+}
+
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: #7000FF;
+    box-shadow: 0px 0px 50px 10px #7000FF;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7000FF;
+}
+
+footer a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+.sosmed{
+    flex: 1;
+    text-align: center;
+    margin: 80px 10px 100px 10px;
+}
+
+.sosmed ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 100px;
+    position: relative;
+}
+
+.sosmed ul li a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.copyright{
+    font-size: 15px;
+    color: white;
+}
